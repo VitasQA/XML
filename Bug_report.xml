@@ -1,1 +1,20 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReport>
+   <summary>The login page crashes when attempting to enter a username with a special character> 
+   <descriprion>WS dosen't provide information if response containes more than 89characters.</descriprion>
+   <actualResult>information gets</actualResult>
+   <expectedResult>information doesen't get</expectedResult>
+   <requirementId>requirement</requirementId>
+   <reproducedOn>Win 11</reproducedOn>
+   <reproducibility>always</reproducibility>
+   <workaround>no</workaround>
+   <stepsTOreproduce>
+        <one>1. Navigate to the login page</one>
+        <two>2. Enter a username with a special character (e.g. !@#$%)>
+        <three>3. Request method: POST</three>
+        <four>4. Click on the 'Login' button>
+        <five>5. Observe the page crashing>
+   </stepsTOreproduce>
+   <severity>minor</severity>
+   <priority>low</priority>
+</bugReport>
